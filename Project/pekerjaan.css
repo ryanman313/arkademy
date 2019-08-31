@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	color: black;
+	display: flex;
+	background: #F9690E;
+}
+.logo{
+	width: 50%;
+	height: 50px;
+	background:#F9690E;
+}
+.logo h1 {
+	padding-left: 30px;
+	padding-top: 10px;
+	color: white;
+}
+.menu-atas {
+	width: 50%;
+	height: 50px;
+	text-align: right;
+	margin-top: 15px;
+	padding-right: 50px;
+	color: white;
+}
+.menu-atas label{
+	padding-right: 10px;
+}
+.menu-atas button{
+	width: 55px;
+	height:  25px;
+	cursor: pointer;
+	border: 0;
+	border-radius: 13px;
+	background: #264348;
+	color: white;
+}
+.menu-atas button:hover{
+	background:#22A7F0; 
+}
+.konten{
+	display: flex;
+}
+.status{
+	margin-bottom: 20px;
+	display: flex;
+}
+.box-1{
+	width: 300px;
+	height: 150px;
+	margin: 10px ;
+	padding-left: 10px;
+	padding-top: 40px;
+	color: white;
+	background: #F22613;
+}
+.box-1:hover{
+	transform: scale(1.1);
+}
+.box-2{
+	width: 300px;
+	height: 150px;
+	margin: 10px ;
+	padding-left: 10px;
+	padding-top: 40px;
+	color: white;
+	background: #22A7F0;
+}
+.box-2:hover{
+	transform: scale(1.1);
+}
+.box-3{
+	width: 300px;
+	height: 150px;
+	margin: 10px ;
+	padding-left: 10px;
+	padding-top: 40px;
+	color: white;
+	background: #26A65B;
+}
+.box-3:hover{
+	transform: scale(1.1);
+}
+.box-4{
+	width: 300px;
+	height: 150px;
+	margin: 10px ;
+	padding-left: 10px;
+	padding-top: 40px;
+	color: white;
+	background: #264348;
+
+}
+.box-4:hover{
+	transform: scale(1.1);
+}
+.status ul{
+	display: flex;
+	text-align: left;
+	margin-left: 3px;
+}
+.status li{
+	width: 300px;
+	height: 150px;
+	margin: 10px ;
+	padding: 40px ;
+	list-style: none;
+	color: white;
+	background: #264348;
+}
+.menu-kiri{
+	width: 20%;
+	height: 750px;
+	background: #264348;
+}
+.menu-kiri img{
+	width: 45%;
+	height: 16%;
+	margin-left: 60px;
+	padding-top: 10px;
+	border-radius: 50%;
+}
+.menu-kiri ul{
+	list-style: none;
+}
+.menu-kiri li{
+	width: 100%;
+	height: 50px;
+}
+.menu-kiri button{
+	width: 100%;
+	height: 100%;
+	background: #757D75;
+	cursor: pointer;
+	border: 0;
+	color: white;
+	font-size: 17px;
+	text-align: left;
+	padding-bottom: 8px;
+}
+.menu-kiri button img{
+	width: 13%;
+	height: 60%;
+	border-radius: 0;
+	margin: 5px;
+	padding-left: 10px;
+}
+.menu-kiri button:hover{
+	background: #264348;
+}
+.menu-kiri a{
+	text-decoration: none;
+}
+.menu-kanan{
+	width: 80%;
+	height: auto;
+	margin: 15px;
+	background: #ECF0F1;
+	padding: 10px;
+}
+.data-a{
+	padding-top: 15px;
+}
+.atas-a{
+	text-align: right;
+}
+.isi-data{
+	border-collapse: collapse;
+	margin: 10px 0;
+	font-size: 0.9em;
+	min-width: 400px;
+}
+.isi-data thead tr{
+	background: #F9690E;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+.isi-data th{
+	padding: 12px 70px;
+}
+.isi-data td{
+	padding: 9px 70px;
+}
+.isi-data tbody tr{
+	border-bottom: 1px solid #F9690E;
+}
