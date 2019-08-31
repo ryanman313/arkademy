@@ -1,0 +1,54 @@
+{
+	"name" 			: 	"Ryan Rinaldi Ashari",
+	"age"			:	23,
+	"address"		:	"Kp. Pulo Pongporang kec. Tigaraksa kab. Tangerang",
+	"hobby"			:	["mulai suka coding","musik","gaming"],
+	"is married"	:	"false",
+	"list school"	:	[
+						{
+							"name school1"	:	"SDN 4 Tigaraksa",
+							"year in"		:	2002,
+							"year out"		:	2008
+						},
+						{
+							"name school2"	:	"SMPN 1 Tigaraksa",
+							"year in"		:	2008,
+							"year out"		:	2011
+						},
+						{
+							"name school3"	:	"SMAN 06 Kabupaten Tangerang",
+							"year in"		:	2011,
+							"year out"		:	2014
+						},
+						{
+							"name school4"	:	"Universitas Muhammdiyah Tangerang",
+							"year in"		:	2014,
+							"year out"		:	2018,
+							"major"			:	"Teknik Informatika"
+						}
+					],
+	"skills"		:
+					[
+						{
+							"skill name"	:	"Html",
+							"level"			:	"beginner"
+						},
+						{
+							"skill name"	:	"CSS",
+							"level"			:	"beginner"
+						},
+						{
+							"skill name"	:	"php",
+							"level"			:	"beginner"
+						},
+						{
+							"skill name"	:	"java",
+							"level"			:	"beginner"
+						},
+						{
+							"skill name"	:	"Vb.Net",
+							"level"			:	"beginner"
+						}
+					],
+	"interest in coding":	"true"
+}
